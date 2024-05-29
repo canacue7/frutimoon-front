@@ -11,6 +11,7 @@ import { LoginComponent } from './login/login.component';
 import { NgxUiLoaderConfig, SPINNER } from 'ngx-ui-loader';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
+import { ForgotPasswordComponent } from './forgot-password/forgot-password.component';
 
 const ngxUiLoaderConfig: NgxUiLoaderConfig ={
   text:"Loading...",
@@ -28,7 +29,8 @@ const ngxUiLoaderConfig: NgxUiLoaderConfig ={
     AppComponent,
     HomeComponent,
     StartContentComponent,
-    LoginComponent
+    LoginComponent,
+    ForgotPasswordComponent
   ],
   imports: [
     BrowserModule,
